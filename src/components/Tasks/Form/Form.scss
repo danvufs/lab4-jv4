@@ -1,0 +1,43 @@
+// Form.scss
+
+.filed {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.error {
+    font-weight: bold;
+    color: red;
+    margin: 20px;
+}
+
+label {
+    width: 10rem;
+    text-align: right;
+    margin-right: 1rem;
+}
+
+input,
+select {
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+
+.button-add {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+
+    &:hover {
+        background-color: darkblue;
+    }
+}

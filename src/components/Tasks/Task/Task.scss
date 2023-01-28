@@ -1,0 +1,38 @@
+.clear-tasks-button {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+
+
+    &:hover {
+        background-color: #f57c00;
+    }
+}
+
+.task-wrapper {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin: 20px;
+    font-weight: bold;
+    color: #b6287d;
+}
+
+.open {
+    color: red;
+}
+
+.completed {
+    color: green;
+}
